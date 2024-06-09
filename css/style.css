@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+body{
+    background-color: #24353f;
+    font-family: "Reddit Mono", monospace;
+}
+
+.homeBox{
+    background-color: #24353f;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#loginBtn:hover{
+   background-color: #17A2B8  !important ; 
+   border: none;
+   
+}

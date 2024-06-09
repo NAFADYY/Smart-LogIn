@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Login | Signup</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="my-5">
+      <div class="w-75 m-auto text-center homeBox p-5 rounded-3 shadow-lg">
+        <h1 class="text-capitalize text-info">Smart Login System</h1>
+        <input
+          id="nameInputSignUp"
+          class="form-control text-white bg-transparent mt-3"
+          type="text"
+          placeholder="Enter Your Name"
+        />
+        <input
+          id="emailInputSignUp"
+          class="form-control text-white bg-transparent my-3"
+          type="email"
+          placeholder="Enter Your Email"
+        />
+        <input
+          id="passInputSignUp"
+          class="form-control text-white bg-transparent"
+          type="password"
+          placeholder="Enter Your PassWord"
+        />
+
+        <button
+          id="signupBtn"
+          class="btn btn-outline-light form-control my-3"
+          onclick="signupFunc ()"
+        >
+          Sign Up
+        </button>
+        <p class="text-white">
+          Already have an account?<a
+            class="text-decoration-none"
+            href="index.html"
+          >
+            SignIn</a
+          >
+        </p>
+        <h4 id="dontEmpity" class="text-center text-warning d-none">
+          All inputs is required
+        </h4>
+        <ul>
+          <li class="text-warning text-start">Minimum 8 Characters</li>
+          <li class="text-warning text-start">One Capitalize Character</li>
+          <li class="text-warning text-start">[A-Za-z\d@$!%*?&]</li>
+        </ul>
+      </div>
+    </header>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/signup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Login</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="my-5">
+      <div class="w-75 m-auto text-center p-5 homeBox rounded-3">
+        <h1 class="text-capitalize text-info">Smart Login System</h1>
+        <input
+          id="emailInput"
+          class="form-control my-3 bg-transparent text-white"
+          type="email"
+          placeholder="Enter Your Email"
+        />
+
+        <input
+          id="passInput"
+          class="form-control text-white bg-transparent"
+          type="password"
+          placeholder="Enter Your Password"
+        />
+
+        <button id="loginBtn" class="btn btn-outline-light my-3 form-control">
+          Login
+        </button>
+        <p class="text-white">
+          Don’t have an account?
+          <a class="text-decoration-none" href="signup.html">SignUp</a>
+        </p>
+
+        <h4 id="dontEmpity" class="text-center text-warning d-none">
+          All Inputs Is Required
+        </h4>
+      </div>
+    </header>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
